@@ -1,0 +1,11 @@
+# build output
+csharp-weatherforecast/obj
+csharp-weatherforecast/bin
+Weatherforecast.Tests/bin
+Weatherforecast.Tests/obj
+
+# VS Code
+/.vscode
+
+# JetBrains Rider
+/.idea
