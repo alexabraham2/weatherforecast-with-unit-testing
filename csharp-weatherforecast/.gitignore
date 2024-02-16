@@ -1,6 +1,8 @@
 # build output
 bin/
 obj/
+../Weatherforecast.Test/bin
+../Weatherforecast.Test/obj
 
 # VS Code
 /.vscode
