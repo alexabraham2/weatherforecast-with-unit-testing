@@ -8410,6 +8410,10 @@
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Sample >= 1.0.0",
+      "Steeltoe.Common.Hosting >= 3.2.*",
+      "Steeltoe.Management.EndpointCore >= 3.2.*",
+      "System.Net.Http >= 4.3.4",
+      "System.Text.RegularExpressions >= 4.3.1",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
       "xunit.runner.visualstudio >= 2.5.3"
@@ -8464,6 +8468,22 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"
+          },
+          "Steeltoe.Common.Hosting": {
+            "target": "Package",
+            "version": "[3.2.*, )"
+          },
+          "Steeltoe.Management.EndpointCore": {
+            "target": "Package",
+            "version": "[3.2.*, )"
+          },
+          "System.Net.Http": {
+            "target": "Package",
+            "version": "[4.3.4, )"
+          },
+          "System.Text.RegularExpressions": {
+            "target": "Package",
+            "version": "[4.3.1, )"
           },
           "coverlet.collector": {
             "target": "Package",

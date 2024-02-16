@@ -134,6 +134,22 @@
               "target": "Package",
               "version": "[17.8.0, )"
             },
+            "Steeltoe.Common.Hosting": {
+              "target": "Package",
+              "version": "[3.2.*, )"
+            },
+            "Steeltoe.Management.EndpointCore": {
+              "target": "Package",
+              "version": "[3.2.*, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"

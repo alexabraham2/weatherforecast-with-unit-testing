@@ -10,6 +10,10 @@
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "Sample": "1.0.0",
+          "Steeltoe.Common.Hosting": "3.2.6",
+          "Steeltoe.Management.EndpointCore": "3.2.6",
+          "System.Net.Http": "4.3.4",
+          "System.Text.RegularExpressions": "4.3.1",
           "coverlet.collector": "6.0.0",
           "xunit": "2.5.3",
           "xunit.runner.visualstudio": "2.5.3"
