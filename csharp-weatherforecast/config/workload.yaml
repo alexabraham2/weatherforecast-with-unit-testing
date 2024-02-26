@@ -1,7 +1,8 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: csharp-weatherforecast-with-test
+  name: csharp-weatherforecast
+  namespace: dev
   labels:
     apps.tanzu.vmware.com/workload-type: web
     apps.tanzu.vmware.com/has-tests: "true"
@@ -20,7 +21,7 @@ spec:
   
   source:
     git:
-      url: https://github.com/ykhadilkar/weatherforecast-with-unit-testing
+      url: https://github.com/alexabraham2/weatherforecast-with-unit-testing
       ref:
         branch: main
     subPath: csharp-weatherforecast
